@@ -4,7 +4,7 @@ export default function Divider() {
       <div className="grid h-[75vh] card bg-base-300  place-items-center">
         <div className="w-[75%]">
           <h1
-            className="text-center"
+            className="text-center sm:text-[2rem]"
             style={{ fontFamily: "Goudy Old Style , Grotesk, sans-serif ", fontSize: "3rem" }}
           >
             Welcome to Belle's Luxe Picnics
@@ -13,7 +13,7 @@ export default function Divider() {
             <em>Crafting Moments, Cherishing Memories</em>
           </p>
           <br />
-          <p style={{ fontFamily: "  'Grotesk', 'sans-serif' " }}>
+          <p style={{ fontFamily: "  'Grotesk', 'sans-serif' " }} className="sm:text-[12px] ">
             Belle's Luxe Picnics brings you a world of upscale pop-up picnics where you can devote your attention to
             what truly matters - crafting unforgettable memories with your cherished ones. Be it a birthday celebration,
             engagement, anniversary, or any significant moment, we're here to make your day as exceptional as you are.

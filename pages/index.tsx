@@ -31,27 +31,27 @@ export default function Index({ allPosts: { edges }, preview }) {
             <div className="w-1/3 text-center relative">
               <img src="/img1.jpg" alt="Image 1" className="w-full" />
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <p className="text-white font-grotesk mb-4">Craft Memories</p>
+                <p className="text-white font-grotesk mb-4 lg:block md:block sm:hidden hidden">Craft Memories</p>
                 <button className="bg-[#4FA05F] bg-opacity-[60%] text-white font-grotesk px-4 py-2 rounded-lg">
-                  Set the Stage
+                  <span className="sm:text-[100%] text-[10px]">Set the Stage </span>
                 </button>
               </div>
             </div>
             <div className="w-1/3 text-center relative">
               <img src="/img3.jpg" alt="Image 2" className="w-full" />
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <p className="text-white font-grotesk mb-4">Unforgettable Experience</p>
+                <p className="text-white font-grotesk mb-4 md:block sm:hidden hidden">Unforgettable Experience</p>
                 <button className="bg-[#4FA05F] bg-opacity-[60%] text-white font-grotesk px-4 py-2 rounded-lg">
-                  Book this Event
+                  <span className="sm:text-[100%] text-[10px]">Book this Event</span>
                 </button>
               </div>
             </div>
             <div className="w-1/3 text-center relative">
               <img src="/img2.jpg" alt="Image 3" className="w-full" />
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <p className="text-white font-grotesk mb-4">Cherish Love Ones</p>
+                <p className="text-white font-grotesk mb-4 md:block sm:hidden hidden">Cherish Love Ones</p>
                 <button className="bg-[#4FA05F] bg-opacity-[60%] text-white font-grotesk px-4 py-2 rounded-lg">
-                  Create Memories now
+                  <span className="sm:text-[100%] text-[10px]">Create Memories now</span>
                 </button>
               </div>
             </div>
